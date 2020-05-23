@@ -126,7 +126,7 @@ button {
 
 .light-gray::before {
   content: "";
-  background-image: url(/fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg);
+  background-image: url(bg-curve-desktop.svg);
   position: absolute;
   background-size: cover;
   top: -60px;
