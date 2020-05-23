@@ -1,0 +1,243 @@
+/* Global Config */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+/* Fylo Main */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(243, 87%, 12%);
+  font-size: 1.1em;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Raleway" sans-serif;
+}
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+.a {
+  color: hsl(170, 45%, 43%);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+.flex > div,
+.flex > ul {
+  flex: 1;
+}
+
+.flex > div:first-child {
+  margin-right: 20px;
+}
+
+.flex > div:last-child {
+  margin-left: 20px;
+}
+/* Navigation Menu */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 50px;
+}
+
+nav ul a {
+  font-family: "Raleway" sans-serif;
+  color: hsl(243, 87%, 12%);
+  text-decoration: none;
+}
+
+/* form, input and buttons */
+
+form {
+  display: flex;
+}
+
+input {
+  border: 1px solid gray;
+  padding: 15px;
+  flex: 0.7;
+  border-radius: 2px;
+  font-family: "Raleway" sans-serif;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: hsl(0, 0%, 75%);
+}
+
+button {
+  border: 1px solid hsl(224, 93%, 58%);
+  background-color: hsl(224, 93%, 58%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 0.3;
+  padding: 15px;
+  color: white;
+  border-radius: 2px;
+  margin-left: 10px;
+  font-family: "Raleway" sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* section light-gray */
+
+.light-gray {
+  background-color: hsl(240, 75%, 98%);
+  margin-top: 100px;
+  position: relative;
+  padding: 50px 0;
+}
+
+.light-gray::before {
+  content: "";
+  background-image: url(/fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg);
+  position: absolute;
+  background-size: cover;
+  top: -60px;
+  left: 0;
+  height: 60px;
+  width: 100%;
+}
+
+.cyan {
+  color: hsl(170, 45%, 43%);
+  text-decoration: none;
+}
+
+/* Review by Kyle */
+
+.testimonial-box {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-top: 40px;
+  width: 80%;
+}
+
+.testimonial-box p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+/* Kyle Burton */
+
+.user-info {
+  display: flex;
+  margin-top: 20px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.user-info h4 {
+  font-weight: 700;
+  margin: 0;
+}
+
+/* section light-gray */
+
+.light-purple {
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+  padding: 50px 0;
+}
+
+.light-purple form {
+  flex-direction: column;
+}
+.light-purple form input {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  flex: 1;
+  font-family: "Raleway" sans-serif;
+  font-size: 16px;
+}
+
+.light-purple form button {
+  margin: 20px 0;
+  width: 50%;
+  font-family: "Raleway" sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  font-family: "Open Sans" sans-serif;
+  padding: 50px 0;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  margin-bottom: 20px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social a img {
+  color: white;
+}
+
+.circle {
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
